@@ -1,0 +1,6 @@
+framework module Pods_SayaraDz {
+  umbrella header "Pods-SayaraDz-umbrella.h"
+
+  export *
+  module * { export * }
+}

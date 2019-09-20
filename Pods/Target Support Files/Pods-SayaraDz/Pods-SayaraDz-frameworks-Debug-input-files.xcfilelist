@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-SayaraDz/Pods-SayaraDz-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Braintree/Braintree.framework
+${BUILT_PRODUCTS_DIR}/BraintreeDropIn/BraintreeDropIn.framework
+${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework
+${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework
+${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework
+${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework
+${BUILT_PRODUCTS_DIR}/SwiftRangeSlider/SwiftRangeSlider.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIViewChosenLabel" customModule="SayaraDz" customModuleProvider="target">
+            <connections>
+                <outlet property="Close" destination="tBO-r4-lMK" id="fLt-Kw-2x8"/>
+                <outlet property="ContentView" destination="iN0-l3-epB" id="lzP-QQ-Bfe"/>
+                <outlet property="Label" destination="Zju-jW-gNm" id="c0v-fL-09B"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="25"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marque" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zju-jW-gNm" customClass="UILabelGreyBorderRadius" customModule="SayaraDz" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="100" height="25"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBO-r4-lMK">
+                    <rect key="frame" x="75" y="0.0" width="20" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="4Tp-Em-6BJ"/>
+                        <constraint firstAttribute="height" constant="25" id="KlG-Ai-XV2"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="close"/>
+                    <connections>
+                        <action selector="close:" destination="-1" eventType="touchUpInside" id="3Sn-Ms-c4Q"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Zju-jW-gNm" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="1Y0-69-OaL"/>
+                <constraint firstItem="Zju-jW-gNm" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="1kx-Ws-Rs4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Zju-jW-gNm" secondAttribute="trailing" id="FSx-Ev-T46"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Zju-jW-gNm" secondAttribute="bottom" id="GgW-fB-10K"/>
+                <constraint firstItem="tBO-r4-lMK" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Mrs-0o-7qo"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="tBO-r4-lMK" secondAttribute="trailing" constant="5" id="mIV-34-0ob"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-104" y="149.77511244377811"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close" width="658" height="770"/>
+    </resources>
+</document>
